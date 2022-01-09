@@ -53,8 +53,16 @@ FInally, to run de diamond search we ran:
 `diamond blastp --db merops.dmnd -q "proteomes".faa -o merops_peptidases`
 
 
-### SignalP searches
+### Signal peptide searches
+
+To look for proteins with a signal peptide we used the SignalP tool. We downloaded it from: https://services.healthtech.dtu.dk/cgi-bin/sw_request
+
+The command used was:
+
+`signalp -fasta sequences.faa -org gram- -format short -prefix
+signalp_output.faa`
 
 ### HGTector commands
+
 
 ### AMRFinder commands
