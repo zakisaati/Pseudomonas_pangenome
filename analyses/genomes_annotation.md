@@ -23,9 +23,9 @@ Here we used the following command, which was run on a folder containing all the
 ### CAZys annotation
 
 
-`for file in *.txt \
-do \
-echo "awk '$5~/[23]/ {print $0}' ${file} > 2-3-tools-dbcan_${file}" \
+`for file in *.txt ;
+do ;
+echo "awk '$5~/[23]/ {print $0}' ${file} > 2-3-tools-dbcan_${file}" ;
 done > sort_dbcan_output.sh`
 
 Then:
