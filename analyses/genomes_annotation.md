@@ -10,8 +10,15 @@ For each of the genomes of the analyses we ran the following base command:
 
 `prokka --kingdom Bacteria --outdir "genome_annotation_output_folder" --genus Pseudomonas --centre X --cpus 0 --prefix "strain_name" genome_name.fasta`
 
+This command will return a folder with many diverse annotation formats. We used the .gff files for the genomes evaluation and for the pangenome analyses, and the .faa files for some individual genomes annotation.
 
+### Genomes evaluation
 
+We use the QUAST program, including the BUSCO algorithm implemented in QUAST to analyze the quality and completeness of each of the genomes of our study. The complete manual is avaiable at http://quast.sourceforge.net/docs/manual.html 
+
+Here we used the following command, which was run on a folder containing all the .gff files from prokka annotations:
+
+quast.py -o output_quast_busco -t 6 -b *.gff
 
 ### CAZys annotation
 
