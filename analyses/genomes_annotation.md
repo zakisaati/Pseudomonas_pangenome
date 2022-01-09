@@ -4,6 +4,7 @@ Here we show the codes used for genomes evaluation and genomes or proteomes anno
 
 
 ## PROKKA genome annotation
+
 We used **prokka** version 1.14.6. The complete code of this program is available at https://github.com/tseemann/prokka 
 
 For each of the genomes of the analyses we ran the following base command:
@@ -67,5 +68,17 @@ signalp_output.faa`
 
 ## HGTector commands
 
+To look for potential genes that have been horizontally tranfered, we used the HGTector2 program following the insturctions available at https://github.com/qiyunlab/HGTectorh 
+
+First we compiled a microbes databae as detailed in https://github.com/qiyunlab/HGTector/blob/master/doc/database.md. 
+
+Secondly, we searched for putative horizontal gene transfer (HGT) events with the following command:
+
+`hgtector search -i pangenome_proteins.faa -o search_pangenome_proteins -m diamond -p 0 -d hgtdb/diamond/db -t hgtdb/taxdump --evalue 1e-10 --tax-unirank species`
+
+Finally, we create analyses of the previous report:
+`hgtector analyze -i search_pangenome_proteins -o out_analyze_pangenome_proteins -t hgtdb/taxdump --donor-name`
+
+Then, we inspected the results and mannualy filtered them
 
 ## AMRFinder commands
