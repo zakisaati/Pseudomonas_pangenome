@@ -40,6 +40,8 @@ Then:
 
 ### MEROPS annotation
 
+### SignalP searches
+
 ### HGTector commands
 
 ### AMRFinder commands
