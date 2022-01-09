@@ -47,7 +47,7 @@ Then, we formated the database as follows:
 
 `awk '{print $1}' pepunit.lib > pepunit.faa`
 
-'diamond makedb --in pepunit.faa -d merops`
+`diamond makedb --in pepunit.faa -d merops`
 
 FInally, to run de diamond search we ran:
 `diamond blastp --db merops.dmnd -q "proteomes".faa -o merops_peptidases`
