@@ -11,7 +11,11 @@ For each of the genomes of the analyses we ran the following base command:
 `prokka --kingdom Bacteria --outdir "genome_annotation_output_folder" --genus Pseudomonas --centre X --cpus 0 --prefix "strain_name" genome_name.fasta`
 
 
-### dbCAN2 commands 
+
+
+### CAZys annotation
+
+(incluir el filtro de 2/3)
 
 ### MEROPS annotation
 
