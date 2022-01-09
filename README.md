@@ -7,3 +7,8 @@ This repository contains the code used for generating the data contained in the 
 - To see how we created the phylogenetic tree of _Pseudomonas_ , go to [phylogeny](./analyses/phylogeny.md)
 
 - To see how we built an analyze the _Pseudomonas_ pangenome, and then searched for proteins or functions associated with the _Pseudomonas_ isolation sources go to [pangenome_creation_and_enrichment_analyses](./analyses/pangenome_creation_and_enrichment_analyses.md)
+
+---
+
+### Citation
+Saati-Santamaría, Z., Baroncelli, R., Rivas, R., García-Fraile, P. Comparative genomics on the genus Pseudomonas reveals metabolic functions and thousands of genes associated to different environments. Nature Ecology and Evolution. Under revision.
