@@ -1,4 +1,3 @@
-```
 # Genomes annotation
 
 Here we show the codes used for genomes evaluation and genomes or proteomes annotations. 
@@ -13,5 +12,3 @@ prokka --kingdom Bacteria --outdir Pseudomonas_aeruginosa_VET-78_contigs --genus
 ###### The smallest heading
 
 **bold text**
-
-```
