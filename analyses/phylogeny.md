@@ -14,4 +14,4 @@ Then, we will have a folder called "bcg_pangenome_pseudomonas" containing a sigl
 $ java -jar UBCG.jar align -bcg_dir bcg_pangenome_pseudomonas/  -prefix pangenome_pseudomonas
 ~~~
 
-Now we will look for the output file output/pangenome_pseudomonas/pangenome_pseudomonas.UBCG_gsi(92).codon.50.label.nwk , which we uploaded into the [iTOL]((https://itol.embl.de/) program  to add metadata and display a rerendered phylogenetic tree.
+Now we will look for the output file output/pangenome_pseudomonas/pangenome_pseudomonas.UBCG_gsi(92).codon.50.label.nwk , which we uploaded into the [iTOL](https://itol.embl.de/) program  to add metadata and display a rerendered phylogenetic tree.
