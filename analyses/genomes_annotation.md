@@ -18,7 +18,7 @@ We use the QUAST program, including the BUSCO algorithm implemented in QUAST to 
 
 Here we used the following command, which was run on a folder containing all the .gff files from prokka annotations:
 
-quast.py -o output_quast_busco -t 6 -b *.gff
+`quast.py -o output_quast_busco -t 6 -b *.gff`
 
 ### CAZys annotation
 
