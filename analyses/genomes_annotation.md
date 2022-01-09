@@ -3,7 +3,6 @@
 Here we show the codes used for genomes evaluation and genomes or proteomes annotations. 
 
 ### PROKKA genome annotation
-
 We used prokka version 1.14.6. The complete code of this program is available at https://github.com/tseemann/prokka 
 
 For each of the genomes of the analyses we ran the following base command:
