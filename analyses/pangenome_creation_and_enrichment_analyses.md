@@ -7,11 +7,18 @@ First, we formatted the already annotated genomes (gff file outputs from prokka,
 `$ ppanggolin annotate --anno pseudomonas_annotation_list.txt --cpu 6`
 
 This previous step creates a file called "pangenome.h5" that will store many data of our pangenome generated with PPanGGOLiN. Then, we ran a command to cluster the proteins with [MMSeqs2](https://github.com/soedinglab/MMseqs2)
-ppanggolin cluster -p pangenome.h5 --identity 0.7
-ppanggolin write -p pangenome.h5 --csv --output matrix_ppangolin_3301
 
-Continuación:
-ppanggolin graph -p pangenome.h5
+`$ ppanggolin cluster -p pangenome.h5 --identity 0.7`
+
+Now we will create a presence-absence matrix of protein clusters. This is a huge table that provides information on wheter a genome has some protein falling in a certain protein cluster or not.  
+
+`$ ppanggolin write -p pangenome.h5 --csv --output matrix_ppanggolin`
+
+Within the matrix_ppanggolin folder we will find a matrix.csv table that will be used with Scoary as detailed below, in the next section.
+
+Now, the following subcommand will build a said pangenome graph, which will take a pangenome .h5 file as input and add edges to it. 
+
+`$ ppanggolin graph -p pangenome.h5`
 ppanggolin partition -p pangenome.h5 -c 10
 ppanggolin write -p pangenome.h5 --stats
 
