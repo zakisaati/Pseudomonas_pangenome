@@ -5,9 +5,17 @@ To delete extremely distant genomes and to study the phylogeny of the 3,274 sele
 The first command will be used to convert each unnanotated genome into UBCG format (.bcg extension). We will use this command within a directory containing all the genomes in fasta format.
 
 ~~~
-$ for file in *.fna ; do ; genome={file%%.fna} echo "java -jar UBCG.jar extract -bcg_dir bcg_pangenome_pseudomonas -i ${file} -label "${genome}"
+$ for file in *.fna
+do
+genome={file%%.fna}
+echo "java -jar UBCG.jar extract -bcg_dir bcg_pangenome_pseudomonas -i ${file} -label "${genome}"
+done > extract_commands.sh
 ~~~
 
+Now, we execute the commands:
+~~~
+$ bash extract_commands.sh
+~~~
 Then, we will have a folder called "bcg_pangenome_pseudomonas" containing a sigle .bcg file for each of our genomes. These files will contain UBCG sequences for further analyses. Now we are ready to build the phylogenies:
 
 ~~~
