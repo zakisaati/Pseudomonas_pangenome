@@ -4,7 +4,7 @@ Here we show the codes used for genomes evaluation and genomes or proteomes anno
 
 
 ## PROKKA genome annotation
-We used prokka version 1.14.6. The complete code of this program is available at https://github.com/tseemann/prokka 
+We used **prokka** version 1.14.6. The complete code of this program is available at https://github.com/tseemann/prokka 
 
 For each of the genomes of the analyses we ran the following base command:
 
@@ -15,7 +15,7 @@ This command will return a folder with many diverse annotation formats. We used 
 
 ## Genomes evaluation
 
-We use the QUAST program, including the BUSCO algorithm implemented in QUAST to analyze the quality and completeness of each of the genomes of our study. The complete manual is avaiable at http://quast.sourceforge.net/docs/manual.html 
+We use the **QUAST** program, including the **BUSCO** algorithm implemented in QUAST to analyze the quality and completeness of each of the genomes of our study. The complete manual is avaiable at http://quast.sourceforge.net/docs/manual.html 
 
 Here we used the following command, which was run on a folder containing all the .gff files from prokka annotations:
 
@@ -24,7 +24,7 @@ Here we used the following command, which was run on a folder containing all the
 
 ## CAZys annotation
 
-To annotate the proteomes against the CAZy database we sued the dbCAN2 program implemented within the run_dbcan.py scritp, available at: https://github.com/linnabrown/run_dbcan 
+To annotate the proteomes against the **CAZy database** we sued the **dbCAN2** program implemented within the **run_dbcan.py** scritp, available at: https://github.com/linnabrown/run_dbcan 
 
 We ran: `run_dbcan.py "proteomes".faa protein --out_dir output_dbcan --dia_cpu 10 --hmm_cpu 10 --hotpep_cpu 10 --tf_cpu 10 --tf_cpu 10 --db_dir /home/zaki/db`
 
@@ -57,7 +57,7 @@ FInally, to run de diamond search we ran:
 
 ## Signal peptide searches
 
-To look for proteins with a signal peptide we used the SignalP tool. We downloaded it from: https://services.healthtech.dtu.dk/cgi-bin/sw_request
+To look for proteins with a signal peptide we used the **SignalP** tool. We downloaded it from: https://services.healthtech.dtu.dk/cgi-bin/sw_request
 
 The command used was:
 
