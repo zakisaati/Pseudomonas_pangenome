@@ -11,7 +11,7 @@ For each of the genomes of the analyses we ran the following base command:
 
 This command will return a folder with many diverse annotation formats. We used the .gff files for the genomes evaluation and for the pangenome analyses, and the .faa files for some individual genomes annotation.
 
-### Genomes evaluation
+## Genomes evaluation
 
 We use the QUAST program, including the BUSCO algorithm implemented in QUAST to analyze the quality and completeness of each of the genomes of our study. The complete manual is avaiable at http://quast.sourceforge.net/docs/manual.html 
 
@@ -19,7 +19,7 @@ Here we used the following command, which was run on a folder containing all the
 
 `quast.py -o output_quast_busco -t 6 -b *.gff`
 
-### CAZys annotation
+## CAZys annotation
 
 To annotate the proteomes against the CAZy database we sued the dbCAN2 program implemented within the run_dbcan.py scritp, available at: https://github.com/linnabrown/run_dbcan 
 
@@ -36,7 +36,7 @@ Then:
 `bash sort_dbcan_output.sh`
 
 
-### MEROPS annotation
+## MEROPS annotation
 
 We used the **DIAMOND** algorithm (https://github.com/bbuchfink/diamond) to annotate our proteomes against the **MEROPS database** (https://www.ebi.ac.uk/merops/).
 
@@ -52,7 +52,7 @@ FInally, to run de diamond search we ran:
 `diamond blastp --db merops.dmnd -q "proteomes".faa -o merops_peptidases`
 
 
-### Signal peptide searches
+## Signal peptide searches
 
 To look for proteins with a signal peptide we used the SignalP tool. We downloaded it from: https://services.healthtech.dtu.dk/cgi-bin/sw_request
 
@@ -61,7 +61,7 @@ The command used was:
 `signalp -fasta sequences.faa -org gram- -format short -prefix
 signalp_output.faa`
 
-### HGTector commands
+## HGTector commands
 
 
-### AMRFinder commands
+## AMRFinder commands
