@@ -22,6 +22,11 @@ Here we used the following command, which was run on a folder containing all the
 
 ### CAZys annotation
 
+To annotate the proteomes against the CAZy database we sued the dbCAN2 program implemented within the run_dbcan.py scritp, available at: https://github.com/linnabrown/run_dbcan 
+
+We ran: `run_dbcan.py "proteomes".faa protein --out_dir output_dbcan --dia_cpu 10 --hmm_cpu 10 --hotpep_cpu 10 --tf_cpu 10 --tf_cpu 10 --db_dir /home/zaki/db`
+
+We then filtered te results to retain only those proteins annotated by at least 2 of the 3 algorithms included in the script.
 
 `for file in *.txt ;
 do ;
