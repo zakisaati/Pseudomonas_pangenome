@@ -59,4 +59,6 @@ $ ppanggolin fasta -p pangenome.h5 --output representative_sequences --prot_fami
  
  # Pangenome wide association studies
  
- 
+ To search for significant associations of proteins and/or functions to the different isolation sources of the 3,274 _Pseudomonas_ strains of this work, we used [Scoary](https://github.com/AdmiralenOla/Scoary). This program requires two input files:
+ - A matrix in which each row represents a feature (which in our case are proteins or functions) and each column represents a genome. Then, the cells shows the presence ("1" or any text) or abscence ("0") of each feature in each genome. We used the `matrix.csv` file created with PPanGGOLiN for protein analyses and simmilar formatted files for CAZy, resistance-genes and COGs analyses.
+ - A traits table as [detailed](https://github.com/AdmiralenOla/Scoary) by the developers 
