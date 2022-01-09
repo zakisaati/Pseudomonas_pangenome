@@ -1,11 +1,8 @@
-   
-## EvoMining web interface  
-### 1. Welcome Screen  
-
 # Genomes annotation
+
 Here we show the codes used for genomes evaluation and genomes or proteomes annotations. 
 
 ## PROKKA genome annotation
-----
+
 
 prokka --kingdom Bacteria --outdir Pseudomonas_aeruginosa_VET-78_contigs --genus Pseudomonas --centre X --cpus 0 --prefix Pseudomonas_aeruginosa_VET-78_contigs Pseudomonas_aeruginosa_VET-78_contigs.fasta
