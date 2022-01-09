@@ -12,6 +12,10 @@ This previous step creates a file called "pangenome.h5" that will store many dat
 
 Now we will create a presence-absence matrix of protein clusters. This is a huge table that provides information on wheter a genome has some protein falling in a certain protein cluster or not.  
 
+~~~
+$ ppanggolin write -p pangenome.h5 --csv --output matrix_ppanggolin
+~~~
+
 `$ ppanggolin write -p pangenome.h5 --csv --output matrix_ppanggolin`
 
 Within the matrix_ppanggolin folder we will find a matrix.csv table that will be used with Scoary as detailed below, in the next section.
