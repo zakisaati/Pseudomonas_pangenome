@@ -11,4 +11,11 @@ This repository contains the code used for generating the data contained in the 
 ---
 
 ### Citation
-Saati-Santamaría, Z., Baroncelli, R., Rivas, R., García-Fraile, P. Comparative genomics on the genus Pseudomonas reveals metabolic functions and thousands of genes associated to different environments. Nature Ecology and Evolution. Under revision.
+Saati-Santamaría, Z., Baroncelli, R., Rivas, R., García-Fraile, P. Comparative genomics on the genus _Pseudomonas_ reveals metabolic functions and thousands of genes associated to different environments. Nature Ecology and Evolution. Under revision.
+
+---
+
+### Contact
+
+If you have some questions related to the workflow of this work, please, write to [Zaki Saati Santamaría](https://www.researchgate.net/profile/Zaki-Saati-Santamaria)  (zakisaati@usal.es)
+----
