@@ -4,11 +4,12 @@ Here we show the codes used for genomes evaluation and genomes or proteomes anno
 
 ## PROKKA genome annotation
 
+We used prokka version 1.14.6. The complete code of this program is available at https://github.com/tseemann/prokka 
 
-prokka --kingdom Bacteria --outdir Pseudomonas_aeruginosa_VET-78_contigs --genus Pseudomonas --centre X --cpus 0 --prefix Pseudomonas_aeruginosa_VET-78_contigs Pseudomonas_aeruginosa_VET-78_contigs.fasta
+For each of the genomes of the analyses we ran the following base command:
 
-# The largest heading
-## The second largest heading
-###### The smallest heading
+`prokka --kingdom Bacteria --outdir "genome_annotation_output_folder" --genus Pseudomonas --centre X --cpus 0 --prefix "strain_name" genome_name.fasta`
+
+
 
 **bold text**
