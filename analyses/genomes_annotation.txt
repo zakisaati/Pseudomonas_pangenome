@@ -10,3 +10,5 @@ prokka --kingdom Bacteria --outdir Pseudomonas_aeruginosa_VET-78_contigs --genus
 # The largest heading
 ## The second largest heading
 ###### The smallest heading
+
+**bold text**
