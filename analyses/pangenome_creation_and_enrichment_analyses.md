@@ -20,8 +20,7 @@ Now we will create a presence-absence matrix of protein clusters. This is a huge
 $ ppanggolin write -p pangenome.h5 --csv --output matrix_ppanggolin
 ~~~
 
-
-Within the matrix_ppanggolin folder we will find a matrix.csv table that will be used with Scoary as detailed below, in the next section.
+Within the matrix_ppanggolin folder we will find a **matrix.csv** table that will be used with **Scoary** as detailed below, in the next section.
 
 Now, the following subcommand will build a said pangenome graph, which will take a pangenome .h5 file as input and add edges to it. 
 
@@ -29,38 +28,33 @@ Now, the following subcommand will build a said pangenome graph, which will take
 $ ppanggolin graph -p pangenome.h5
 ~~~
 
-~~~
-ppanggolin partition -p pangenome.h5 -c 10
-~~~
+The `partition` subcommand will assign protein families to the 'persistent', 'shell', or 'cloud' partitions.
 
 ~~~
-ppanggolin write -p pangenome.h5 --stats
+$ ppanggolin partition -p pangenome.h5 -c 10
 ~~~
 
-~~~
-ppanggolin write -p pangenome.h5 --families_tsv
-~~~
+To obtain basics stats from the pangenome built with the previous commands, we just ran:
 
 ~~~
-ppanggolin write -p pangenome.h5 --Rtab
-~~~
-Con esto podré hacer curvas después
-
-~~~
-ppanggolin draw -p pangenome.h5 --ucurve
+$ ppanggolin write -p pangenome.h5 --stats
 ~~~
 
-~~~
-ppanggolin draw -p pangenome.h5 --tile_plot --nocloud -c 10
-~~~
+We generated an rarefaction plot representing the evolution of the number of gene families for each partition as you add more genomes to the pangenome. This is a .html file that can be opened with any browser.
 
 ~~~
-ppanggolin rarefaction -p pangenome.h5 -c 10
+$ ppanggolin rarefaction -p pangenome.h5 -c 10
+~~~
+
+Some of our analyses required the representative sequences for each protein cluster. To obtain them, we used this command:
+
+~~~
+$ ppanggolin fasta -p pangenome.h5 --output representative_sequences --prot_families all
 ~~~
 
 #### To find Regions of Genome Plasticity (RGPs)
 ~~~
- ppanggolin panrgp --anno 3301_pseudomonas_annotation_list.txt -c 10
+ $ ppanggolin panrgp --anno 3301_pseudomonas_annotation_list.txt -c 10
  ~~~
  
  # Pangenome wide association studies
