@@ -5,6 +5,8 @@ This repository contains the code used for generating the data contained in the 
 
 
 ---
+## Guide
+
 - To inspect the codes and programs used to annotate genomes or proteomes, and to evaluate genome completeness and quality go to the [genomes_annotation](./analyses/genomes_annotation.md) section. This section details many diverse annotation steps.
 
 - To see how we created the phylogenetic tree of _Pseudomonas_ , go to [phylogeny](./analyses/phylogeny.md).
