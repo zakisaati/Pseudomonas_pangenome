@@ -2,7 +2,7 @@
 This repository contains the code used for generating the data contained in the article "Comparative genomics on the genus Pseudomonas reveals metabolic functions and thousands of genes associated to different environments" (Saati-Santamaría, Z., Baroncelli, R., Rivas, R., García-Fraile, P.).
 
              
-           <img width="1081" alt="Captura de pantalla 2022-01-09 a las 14 39 26" src="https://user-images.githubusercontent.com/50806485/148684622-57907708-261d-4fef-848e-4677c79bdac3.png">
+<img width="1081" alt="Captura de pantalla 2022-01-09 a las 14 39 26" src="https://user-images.githubusercontent.com/50806485/148684622-57907708-261d-4fef-848e-4677c79bdac3.png">
 
 
 ---
