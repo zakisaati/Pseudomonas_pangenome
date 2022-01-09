@@ -66,7 +66,7 @@ The command used was:
 signalp_output.faa`
 
 
-## HGTector commands
+## HGTector2 commands
 
 To look for potential genes that have been horizontally tranfered, we used the HGTector2 program following the insturctions available at https://github.com/qiyunlab/HGTectorh 
 
@@ -82,3 +82,11 @@ Finally, we create analyses of the previous report:
 Then, we inspected the results and mannualy filtered them
 
 ## AMRFinder commands
+
+To look for proteins involved in antimicrobial, biocide or stresses resistances we annotate the proteomes with the AMRFinder_plus programme (https://github.com/ncbi/amr)
+
+The command that we used is:
+
+`amrfinder -p protein_sequences.faa -o output_amrfinder --plus`
+
+---
