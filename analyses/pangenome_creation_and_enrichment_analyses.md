@@ -2,7 +2,7 @@
 
 To create clusters of proteins and facilitate the genomic comparisons and pangenome calculations we used the PPanGGOLiN program (https://github.com/labgem/PPanGGOLiN). This program enables to create useful tables, graphics and statistics. 
 
-First, we formatted the already annotated genomes (gff file outputs from prokka, see [annotation](../genomes_annotation.md))
+First, we formatted the already annotated genomes (gff file outputs from prokka, see [annotation](./genomes_annotation.md))
 ppanggolin annotate --anno 3301_pseudomonas_annotation_list.txt --cpu 6
 ppanggolin cluster -p pangenome.h5 --identity 0.7
 ppanggolin write -p pangenome.h5 --csv --output matrix_ppangolin_3301
