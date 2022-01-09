@@ -53,8 +53,11 @@ $ ppanggolin fasta -p pangenome.h5 --output representative_sequences --prot_fami
 ~~~
 
 #### To find Regions of Genome Plasticity (RGPs)
+
+PPanGGOLiN include a module called [panRGP](https://github.com/labgem/PPanGGOLiN/wiki/Regions-of-Genome-Plasticity) that can detect RGPs. To run the panRGP subcommand:
+
 ~~~
- $ ppanggolin panrgp --anno 3301_pseudomonas_annotation_list.txt -c 10
+ $ ppanggolin panrgp --anno 3274_pseudomonas_annotation_list.txt -c 10
  ~~~
  
  # Pangenome wide association studies
