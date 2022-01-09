@@ -1,6 +1,10 @@
 # _Pseudomonas_ pangenome
 This repository contains the code used for generating the data contained in the article "Comparative genomics on the genus Pseudomonas reveals metabolic functions and thousands of genes associated to different environments" (Saati-Santamaría, Z., Baroncelli, R., Rivas, R., García-Fraile, P.).
 
+<img width="715" alt="Captura de pantalla 2022-01-09 a las 14 37 33" src="https://user-images.githubusercontent.com/50806485/148684542-b552abb7-b311-4b0c-a767-f054391d34e2.png">
+
+
+
 ---
 - To inspect the codes and programs used to annotate genomes or proteomes, and to evaluate genome completeness and quality go to the [genomes_annotation](./analyses/genomes_annotation.md) section. This section details many diverse annotation steps.
 
