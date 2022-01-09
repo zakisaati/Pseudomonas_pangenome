@@ -37,8 +37,20 @@ Then:
 `bash sort_dbcan_output.sh`
 
 
-
 ### MEROPS annotation
+
+We used the **DIAMOND** algorithm (https://github.com/bbuchfink/diamond) to annotate our proteomes against the **MEROPS database** (https://www.ebi.ac.uk/merops/).
+
+First, we downloaded the database from here: https://www.ebi.ac.uk/merops/download_list.shtml. Concretely, from the "Peptidase Protein Sequences" section
+
+Then, we formated the database as follows:
+
+'awk '{print $1}' pepunit.lib > pepunit.faa`
+'diamond makedb --in pepunit.faa -d merops`
+
+FInally, to run de diamond search we ran:
+`diamond blastp --db merops.dmnd -q "proteomes".faa -o merops_peptidases`
+
 
 ### SignalP searches
 
