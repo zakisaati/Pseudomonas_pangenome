@@ -45,7 +45,8 @@ First, we downloaded the database from here: https://www.ebi.ac.uk/merops/downlo
 
 Then, we formated the database as follows:
 
-'awk '{print $1}' pepunit.lib > pepunit.faa`
+`awk '{print $1}' pepunit.lib > pepunit.faa`
+
 'diamond makedb --in pepunit.faa -d merops`
 
 FInally, to run de diamond search we ran:
