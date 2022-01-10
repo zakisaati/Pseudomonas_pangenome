@@ -3,6 +3,7 @@
 
 ## PCA
 
+[matrix_COGs_3274.csv](./Source_data/PCA/matrix_COGs_3274.csv)
 ~~~~
 > library("ggplot2")
 > library(factoextra)
@@ -15,6 +16,7 @@
 
 ## Boxplots
 
+[input tables](./Source_data/Boxplots/)
 ~~~~~
 > library(ggplot2)
 > options(scipen=999)
@@ -36,6 +38,7 @@
 
 ## UpSetR
 
+[UpSetR](https://github.com/hms-dbmi/UpSetR)
 ~~~~~
 > library(UpSetR)
 > test <- read.csv("input_upsetr_1_0.csv", header=T, check.names=FALSE)
@@ -57,6 +60,7 @@
 
 ## Heatmap of the pangenome with python
 
+[roary_plots.py](https://github.com/sanger-pathogens/Roary/tree/master/contrib/roary_plots)
 ~~~~~
 $ roary_plots.py UBCG_tree.nwk Matrix_COGs_presence_absence.csv
 ~~~~~
