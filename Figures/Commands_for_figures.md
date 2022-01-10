@@ -28,6 +28,7 @@
 
 ## Density plots 
 
+[input tables](./Source_data/Density_plots/)
 ~~~~~
 > library(ggplot2)
 > data <- read.csv("input_table.csv")
