@@ -63,8 +63,8 @@ PPanGGOLiN include a module called [panRGP](https://github.com/labgem/PPanGGOLiN
  # Pangenome wide association studies
  
  To search for significant associations of proteins and/or functions to the different isolation sources of the 3,274 _Pseudomonas_ strains of this work, we used [Scoary](https://github.com/AdmiralenOla/Scoary). This program requires two input files:
- - A matrix in which each row represents a feature (which in our case are proteins or functions) and each column represents a genome. Then, the cells shows the presence ("1" or any text) or abscence ("0") of each feature in each genome. We used the `matrix.csv` file created with PPanGGOLiN for protein analyses and simmilar formatted files for CAZy, resistance-genes and COGs analyses.
- - A traits table as [detailed](https://github.com/AdmiralenOla/Scoary) by the developers 
+ - A matrix in which each row represents a feature (which in our case are proteins or functions) and each column represents a genome. Then, the cells shows the presence ("1" or any text) or abscence ("0") of each feature in each genome. We used the `matrix.csv` file created with PPanGGOLiN for protein analyses and simmilar formatted files for CAZy, resistance-genes and COGs analyses (see [Source_data/Scoary_matrices/](./Source_data/Scoary_matrices/).
+ - A traits table as [detailed](https://github.com/AdmiralenOla/Scoary) by the developers. We created a single trait table for each isolation source, because this reduced the RAM usage. These tables are avaiable at the [Source_data/Scoary_trait_tables/](./Source_data/Scoary_trait_tables/) folder.
 
 The command line was as follows:
 
