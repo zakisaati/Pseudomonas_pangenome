@@ -14,7 +14,7 @@ This repository contains the code used for generating the data contained in the 
 
 - To see how we built an analyze the _Pseudomonas_ pangenome, and then searched for proteins or functions associated with the _Pseudomonas_ isolation sources go to [pangenome_creation_and_enrichment_analyses](./analyses/pangenome_creation_and_enrichment_analyses.md).
 
-- To inspect the codes used for the generation of graphics and figures, go to the [Figures](./Figures/figures.md) section.
+- To inspect the codes used for the generation of graphics and figures, go to the [Figures](./Figures/figures.md) section. This folder also includes the [Source Data](./Figures/Source_data) needed to create each graphic.
 
 ---
 
