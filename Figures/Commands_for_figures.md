@@ -49,11 +49,12 @@
 
 ## Heatmap in R
 
+[input tables](./Source_data/Heatmap_COG_categories/)
 ~~~~~
 > library("gplots")
 > library("heatmap.plus")
 > library("RColorBrewer")
-> test <- read.csv("matrix_heatmap_enriched_COGs.csv",row.names = 1, check.names=FALSE)
+> test <- read.csv("Matrix_heatmap_COGs_enriched_relative_abundance.csv",row.names = 1, check.names=FALSE)
 > input <- as.matrix(test)
 > my_palette <- colorRampPalette(c("white", "blue", "darkblue"))(n = 1000)
 > heatmap.2(input, trace="none", density="none", col=my_palette, cexRow=0.6, cexCol=0.6, margins = c(17,25), scale="none")
