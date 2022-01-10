@@ -61,7 +61,8 @@
 ~~~~~
 
 ## Heatmap of the pangenome with python
-
+[matrix of COG presence/absence](./Source_data/Heatmap_pangenome_COGs/matrix_COGs_presence_absence.csv)
+[phylogenetic tree](./Source_data/Heatmap_pangenome_COGs/phylogenetic_tree_UBCG_pangenome_pseudomonas_3274.nwk)
 [roary_plots.py](https://github.com/sanger-pathogens/Roary/tree/master/contrib/roary_plots)
 ~~~~~
 $ roary_plots.py UBCG_tree.nwk Matrix_COGs_presence_absence.csv
