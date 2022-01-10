@@ -10,8 +10,6 @@
 > input <- as.data.frame(test)[1:2164]
 > res.pca <- prcomp(input, scale = FALSE)
 > fviz_eig(res.pca)
-> fviz_pca_ind(res.pca)
-> fviz_pca_ind(res.pca, label="none")
 > fviz_pca_ind(res.pca, label="none", habillage=test$Niche)
 ~~~~~
 
