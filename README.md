@@ -7,7 +7,7 @@ This repository contains the codes used for generating the data contained in the
 
 ---
 ## Guide
-- The [Analyses](./analyses/ folder contains data and codes needed to compute the genome analyses.
+- The [Analyses](./analyses/) folder contains data and codes needed to compute the genome analyses.
   
   - To inspect the codes and programs used to annotate genomes or proteomes, and to evaluate genome completeness and quality go to the [genomes_annotation](./analyses/genomes_annotation.md) section. This section details many diverse annotation steps.
 
