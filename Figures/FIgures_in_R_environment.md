@@ -1,7 +1,7 @@
 
 
 
-## PCA plot
+## PCA
 
 ~~~~
 > library("ggplot2")
@@ -13,4 +13,30 @@
 > fviz_pca_ind(res.pca)
 > fviz_pca_ind(res.pca, label="none")
 > fviz_pca_ind(res.pca, label="none", habillage=test$Niche)
+~~~~~
+
+## Boxplots
+
+~~~~~
+~~~~~
+
+
+## Density plots 
+~~~~~
+~~~~~
+
+
+## UpSetR
+
+~~~~~
+~~~~~
+
+## Heatmap in R
+
+~~~~~
+~~~~~
+
+## Heatmap of the pangenome with python
+
+~~~~~
 ~~~~~
