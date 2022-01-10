@@ -16,7 +16,7 @@
 
 ## Boxplots
 
-[input tables](./Source_data/Boxplots/)
+[input tables for boxplots](./Source_data/Boxplots/)
 ~~~~~
 > library(ggplot2)
 > options(scipen=999)
@@ -28,7 +28,7 @@
 
 ## Density plots 
 
-[input tables](./Source_data/Density_plots/)
+[input tables for density plots](./Source_data/Density_plots/)
 ~~~~~
 > library(ggplot2)
 > data <- read.csv("input_table.csv")
@@ -49,7 +49,7 @@
 
 ## Heatmap in R
 
-[input tables](./Source_data/Heatmap_COG_categories/)
+[input matrix](./Source_data/Heatmap_COG_categories/)
 ~~~~~
 > library("gplots")
 > library("heatmap.plus")
