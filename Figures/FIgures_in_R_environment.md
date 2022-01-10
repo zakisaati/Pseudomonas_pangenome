@@ -3,6 +3,7 @@
 
 ## PCA plot
 
+~~~~
  library("ggplot2")
  library(factoextra)
  test <- read.csv("matrix_COGs_3274.csv", row.names=1, check.names=FALSE)
@@ -12,3 +13,4 @@
 fviz_pca_ind(res.pca)
  fviz_pca_ind(res.pca, label="none")
  fviz_pca_ind(res.pca, label="none", habillage=test$Niche)
+~~~~~
