@@ -30,7 +30,7 @@ We created several boxplots to compare the abundance of different features in ea
 
 ## Density plots 
 
-Similarly, we created density plots to study the distribution of COG numbers in each category of genomes. The input data are available in: [input tables for density plots](./Source_data/Density_plots/)
+Similarly, we created density plots to study the distribution of COG numbers in each category of genomes. The input data are available in [this folder](./Source_data/Density_plots/)
 
 ~~~~~
 > library(ggplot2)
@@ -53,7 +53,8 @@ To compare the content of COGs among all the categories we used [UpSetR](https:/
 
 ## Heatmap in R
 
-[input matrix](./Source_data/Heatmap_COG_categories/)
+To create heatmaps of COG categories, we used this [input matrices](./Source_data/Heatmap_COG_categories/) and ran the following commands:
+
 ~~~~~
 > library("gplots")
 > library("heatmap.plus")
@@ -65,11 +66,9 @@ To compare the content of COGs among all the categories we used [UpSetR](https:/
 ~~~~~
 
 ## Heatmap of the pangenome with python
-[matrix of COG presence/absence](./Source_data/Heatmap_pangenome_cogs/matrix_COGs_presence_absence.csv)
 
-[phylogenetic tree](./Source_data/Heatmap_pangenome_cogs/phylogenetic_tree_UBCG_pangenome_pseudomonas_3274.nwk)
+To create a big heatmap of the pangenome COG content, we used the [matrix of COG presence/absence](./Source_data/Heatmap_pangenome_cogs/matrix_COGs_presence_absence.csv) and the pangenome [phylogenetic tree](./Source_data/Heatmap_pangenome_cogs/phylogenetic_tree_UBCG_pangenome_pseudomonas_3274.nwk). The script to create it was already public: [roary_plots.py](https://github.com/sanger-pathogens/Roary/tree/master/contrib/roary_plots)
 
-[roary_plots.py](https://github.com/sanger-pathogens/Roary/tree/master/contrib/roary_plots)
 ~~~~~
 $ roary_plots.py UBCG_tree.nwk Matrix_COGs_presence_absence.csv
 ~~~~~
