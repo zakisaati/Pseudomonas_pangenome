@@ -14,7 +14,7 @@ This previous step creates a file called "pangenome.h5" that will store many dat
 $ ppanggolin cluster -p pangenome.h5 --identity 0.7
 ~~~
 
-Now we will create a presence-absence matrix of protein clusters. This is a huge table that provides information on wheter a genome has some protein falling in a certain protein cluster or not.  
+Now we will create a presence-absence matrix of protein clusters. This is a huge table that provides information on whether a genome has some protein falling in a certain protein cluster or not.  
 
 ~~~
 $ ppanggolin write -p pangenome.h5 --csv --output matrix_ppanggolin
