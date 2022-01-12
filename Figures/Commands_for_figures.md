@@ -42,7 +42,7 @@ Similarly, we created density plots to study the distribution of COG numbers in 
 
 ## UpSetR
 
-To compare the content of COGs among all the categories we used [UpSetR](https://github.com/hms-dbmi/UpSetR), which creates graphics with simmmilar meaning than a Venn Diagram, but in a more explicative way. The input table is The code is as follows:
+To compare the content of COGs among all the categories we used [UpSetR](https://github.com/hms-dbmi/UpSetR), which creates graphics with simmmilar meaning than a Venn Diagram, but in a more explicative way. The input table is located [here](./Source_data/UpSetR/input_upsetr_1_0.csv). The code is as follows:
 
 ~~~~~
 > library(UpSetR)
