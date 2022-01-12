@@ -3,7 +3,7 @@
 
 ## PCA
 
-We created a PCA based on the presence/absence of COG functions in each genome and we colored each genome based on the isolation source. For this, we need a [csv matrix](./Source_data/PCA/matrix_COGs_3274.csv) as input. We used R to create this graph:
+We created a PCA based on the presence/absence of COG functions in each genome and we coloured each genome based on the isolation source. For this, we need a [csv matrix](./Source_data/PCA/matrix_COGs_3274.csv) as input. We used R to create this graph:
 
 ~~~~
 > library("ggplot2")
