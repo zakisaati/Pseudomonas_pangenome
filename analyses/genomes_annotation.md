@@ -18,7 +18,7 @@ This command will return a folder with many diverse annotation formats. We used 
 
 ## Genomes evaluation
 
-We use the **QUAST** program, including the **BUSCO** algorithm implemented in QUAST to analyze the quality and completeness of each of the genomes of our study. The complete manual is avaiable under this [link](http://quast.sourceforge.net/docs/manual.html)
+We use the **QUAST** program, including the **BUSCO** algorithm implemented in QUAST to analyze the quality and completeness of each of the genomes of our study. The complete manual is available under this [link](http://quast.sourceforge.net/docs/manual.html)
 
 Here we used the following command, which was run on a folder containing all the .gff files from prokka annotations:
 
@@ -36,7 +36,7 @@ We ran:
 $ run_dbcan.py "proteomes".faa protein --out_dir output_dbcan --dia_cpu 10 --hmm_cpu 10 --hotpep_cpu 10 --tf_cpu 10 --tf_cpu 10 --db_dir /home/zaki/db
 ~~~
 
-We then filtered te results to retain only those proteins annotated by at least 2 of the 3 algorithms included in the script.
+We then filtered the results to retain only those proteins annotated by at least 2 of the 3 algorithms included in the script.
 
 ~~~
 $ for file in *.txt 
@@ -57,7 +57,7 @@ We used the **DIAMOND** algorithm (https://github.com/bbuchfink/diamond) to anno
 
 First, we downloaded the database from here: https://www.ebi.ac.uk/merops/download_list.shtml. Concretely, from the "Peptidase Protein Sequences" section
 
-Then, we formated the database as follows:
+Then, we formatted the database as follows:
 
 ~~~
 $ awk '{print $1}' pepunit.lib > pepunit.faa
@@ -87,9 +87,9 @@ $ signalp -fasta sequences.faa -org gram- -format short -prefix signalp_output.f
 
 ## HGTector2 commands
 
-To look for potential genes that have been horizontally tranfered, we used the HGTector2 program following the instructions available [here](https://github.com/qiyunlab/HGTectorh)
+To look for potential genes that have been horizontally transferred, we used the HGTector2 program following the instructions available [here](https://github.com/qiyunlab/HGTectorh)
 
-First we compiled a microbes databae as detailed in https://github.com/qiyunlab/HGTector/blob/master/doc/database.md. 
+First we compiled a microbes database as detailed in https://github.com/qiyunlab/HGTector/blob/master/doc/database.md. 
 
 Secondly, we searched for putative horizontal gene transfer (HGT) events with the following command:
 
@@ -102,7 +102,7 @@ Finally, we create analyses of the previous report:
 $ hgtector analyze -i search_pangenome_proteins -o out_analyze_pangenome_proteins -t hgtdb/taxdump --donor-name
 ~~~
 
-Then, we inspected the results and mannualy filtered them
+Then, we inspected the results and mannually filtered them
 
 ## AMRFinder commands
 
