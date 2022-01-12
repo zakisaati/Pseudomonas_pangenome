@@ -16,7 +16,7 @@ Now, we execute the commands:
 ~~~
 $ bash extract_commands.sh
 ~~~
-Then, we will have a folder called "bcg_pangenome_pseudomonas" containing a sigle .bcg file for each of our genomes. These files will contain UBCG sequences for further analyses. Now we are ready to build the phylogenies:
+Then, we will have a folder called "bcg_pangenome_pseudomonas" containing a single .bcg file for each of our genomes. These files will contain UBCG sequences for further analyses. Now we are ready to build the phylogenies:
 
 ~~~
 $ java -jar UBCG.jar align -bcg_dir bcg_pangenome_pseudomonas/  -prefix pangenome_pseudomonas
