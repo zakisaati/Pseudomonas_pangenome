@@ -3,7 +3,8 @@
 
 ## PCA
 
-[matrix_COGs_3274.csv](./Source_data/PCA/matrix_COGs_3274.csv)
+We created a PCA based on the presence/absence of COG functions in each genome and we coloured each genome based on the isolation source. For this, we need a [csv matrix](./Source_data/PCA/matrix_COGs_3274.csv) as input. We used R to create this graph:
+
 ~~~~
 > library("ggplot2")
 > library(factoextra)
@@ -16,7 +17,9 @@
 
 ## Boxplots
 
-[input tables for boxplots](./Source_data/Boxplots/)
+We created several boxplots to compare the abundance of different features in each of the 3,274 _Pseudomonas_ strains. All the input tables are available in the
+["input tables for boxplots"](./Source_data/Boxplots/) folder. The R code is:
+
 ~~~~~
 > library(ggplot2)
 > options(scipen=999)
@@ -25,10 +28,10 @@
 > p
 ~~~~~
 
-
 ## Density plots 
 
-[input tables for density plots](./Source_data/Density_plots/)
+Similarly, we created density plots to study the distribution of COG numbers in each category of genomes. The input data are available in: [input tables for density plots](./Source_data/Density_plots/)
+
 ~~~~~
 > library(ggplot2)
 > data <- read.csv("input_table.csv")
@@ -39,7 +42,8 @@
 
 ## UpSetR
 
-[UpSetR](https://github.com/hms-dbmi/UpSetR)
+To compare the content of COGs among all the categories we used [UpSetR](https://github.com/hms-dbmi/UpSetR), which creates graphics with simmmilar meaning than a Venn Diagram, but in a more explicative way. The input table is The code is as follows:
+
 ~~~~~
 > library(UpSetR)
 > test <- read.csv("input_upsetr_1_0.csv", header=T, check.names=FALSE)
