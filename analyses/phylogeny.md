@@ -2,7 +2,7 @@
 
 To delete extremely distant genomes and to study the phylogeny of the 3,274 selected _Pseudomonas_ genomes, we used the **UBCG tool** (v3.0), which can be downloaded [here](https://www.ezbiocloud.net/tools/ubcg)
 
-The first command will be used to convert each unnanotated genome into UBCG format (.bcg extension). We will use this command within a directory containing all the genomes in fasta format.
+The first command will be used to convert each unannotated genome into UBCG format (.bcg extension). We will use this command within a directory containing all the genomes in fasta format.
 
 ~~~
 $ for file in *.fna
