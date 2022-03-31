@@ -26,6 +26,5 @@ Authors-DBPR. Comparative genomics of the genus _Pseudomonas_ reveals host- and 
 
 ### Contact
 
-If you have some questions related to the workflow of this work, please, write to [Zaki Saati Santamaría](https://www.researchgate.net/profile/Zaki-Saati-Santamaria)  (zakisaati@usal.es)
-
+If you have some questions related to the workflow of this work, please, write to ...
 ----
