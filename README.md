@@ -1,5 +1,5 @@
 # _Pseudomonas_ pangenome
-This repository contains the codes used for generating the data contained in the article "Comparative genomics of the genus _Pseudomonas_ reveals host- and environment-specific evolution" (Saati-Santamaría, Z., Baroncelli, R., Rivas, R., García-Fraile, P.).
+This repository contains the codes used for generating the data contained in the article "Comparative genomics of the genus _Pseudomonas_ reveals host- and environment-specific evolution".
 
 <p align="center">
   <img width="700" alt="Captura de pantalla 2022-01-09 a las 14 40 51" src="https://user-images.githubusercontent.com/50806485/148684683-ac4fd96c-f493-4be9-9ee5-5e48caa6039a.png">
@@ -20,7 +20,7 @@ This repository contains the codes used for generating the data contained in the
 ---
 
 ### Citation
-Saati-Santamaría, Z., Baroncelli, R., Rivas, R., García-Fraile, P. Comparative genomics of the genus _Pseudomonas_ reveals host- and environment-specific evolution. Nature Ecology and Evolution. Under revision.
+Authors-DBPR. Comparative genomics of the genus _Pseudomonas_ reveals host- and environment-specific evolution. Nature Ecology and Evolution. Under revision.
 
 ---
 
