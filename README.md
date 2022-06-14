@@ -20,7 +20,7 @@ This repository contains the codes used for generating the data contained in the
 ---
 
 ### Citation
-Authors-DBPR. Comparative genomics of the genus _Pseudomonas_ reveals host- and environment-specific evolution. Under revision.
+Saati-Santamaría, Z., Baroncelli, R., Rivas, R., García-Fraile, P. Comparative genomics of the genus _Pseudomonas_ reveals host- and environment-specific evolution. Under revision.
 
 ---
 
