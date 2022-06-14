@@ -26,5 +26,6 @@ Saati-Santamaría, Z., Baroncelli, R., Rivas, R., García-Fraile, P. Comparative
 
 ### Contact
 
-If you have some questions related to the workflow of this work, please, write to ...
+If you have some questions related to the workflow of this work, please, write to zakisaati@usal.es
+  
 ----
