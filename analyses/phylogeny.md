@@ -23,3 +23,13 @@ $ java -jar UBCG.jar align -bcg_dir bcg_pangenome_pseudomonas/  -prefix pangenom
 ~~~
 
 Now we will look for the output file output/pangenome_pseudomonas/pangenome_pseudomonas.UBCG_gsi(92).codon.50.label.nwk , which we uploaded into the [iTOL](https://itol.embl.de/) program  to add metadata and display a rerendered phylogenetic tree.
+
+We removed those genomes that are extremely distant to the others in the pangenome. As an example, see the following phylogenetic tree:
+
+<img width="908" alt="Captura de pantalla 2022-09-15 a las 9 51 09" src="https://user-images.githubusercontent.com/50806485/190347268-e0cf1769-7cda-4323-9a45-df3e52adc3ec.png">
+
+Then, the phylogenetic tree including the final 3,274 genomes, after adding metadata and rerendering it in iTOL is:
+
+<img width="861" alt="Captura de pantalla 2022-09-15 a las 9 53 30" src="https://user-images.githubusercontent.com/50806485/190347798-8aa74a07-da93-43af-8fec-1aa6ec83e3ec.png">
+
+
