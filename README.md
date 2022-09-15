@@ -2,7 +2,9 @@
 This repository contains the codes used for generating the data contained in the article "Comparative genomics of the genus _Pseudomonas_ reveals host- and environment-specific evolution".
 
 <p align="center">
-  <img width="700" alt="Captura de pantalla 2022-01-09 a las 14 40 51" src="https://user-images.githubusercontent.com/50806485/148684683-ac4fd96c-f493-4be9-9ee5-5e48caa6039a.png">
+ 
+ <img width="861" alt="Captura de pantalla 2022-09-15 a las 9 53 30" src="https://user-images.githubusercontent.com/50806485/190356913-2fe51558-4c36-462b-b286-7c154a29f4ef.png">
+
 
 
 ---
