@@ -33,3 +33,12 @@ Then, the phylogenetic tree including the final 3,274 genomes, after adding meta
 <img width="861" alt="Captura de pantalla 2022-09-15 a las 9 53 30" src="https://user-images.githubusercontent.com/50806485/190347798-8aa74a07-da93-43af-8fec-1aa6ec83e3ec.png">
 
 
+---
+## GTDB-Tk taxonomy
+To study the taxonomic placement of each strain we ran the [GTDB-Tk](https://ecogenomics.github.io/GTDBTk/announcements.html) program through its ["classify_wf"](https://ecogenomics.github.io/GTDBTk/commands/classify_wf.html) command. 
+
+~~~
+$ gtdbtk classify_wf --genome_dir 3274_genomes/ --out_dir gtdbtk_pseudomonas -x fna --cpus 6 --scratch_dir scratch
+~~~
+
+Due to RAM issues, we needed to split the analyses into several runs. Then, we merged the output files into a single file. From that, we used the "classification" column to assign the taxonomy to each genome.
