@@ -13,7 +13,7 @@ This repository contains the codes used for generating the data contained in the
   
   - To inspect the codes and programs used to annotate genomes or proteomes, and to evaluate genome completeness and quality go to the [genomes_annotation](./analyses/genomes_annotation.md) section. This section details many diverse annotation steps.
 
-  - To see how we created the phylogenetic tree of _Pseudomonas_ and classify the species, go to [phylogeny](./analyses/phylogeny.md).
+  - To see how we created the phylogenetic tree of _Pseudomonas_ and classify the species, go to [phylogeny](./analyses/phylogeny.md). Here we also include codes for ANI measurements.
 
   - To see how we built an analyze the _Pseudomonas_ pangenome, and then searched for proteins or functions associated with the _Pseudomonas_ isolation sources go to [pangenome_creation_and_enrichment_analyses](./analyses/pangenome_creation_and_enrichment_analyses.md). 
 
