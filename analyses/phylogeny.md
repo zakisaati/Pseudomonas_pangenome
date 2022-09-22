@@ -35,7 +35,7 @@ Then, the phylogenetic tree including the final 3,274 genomes, after adding meta
 
 ---
 ## GTDB-Tk taxonomy
-To study the taxonomic placement of each strain we ran the [GTDB-Tk](https://ecogenomics.github.io/GTDBTk/announcements.html) program through its ["classify_wf"](https://ecogenomics.github.io/GTDBTk/commands/classify_wf.html) command. 
+To study the taxonomic placement of each strain we ran the [GTDB-Tk](https://ecogenomics.github.io/GTDBTk/announcements.html) program (v2.1.1) through its ["classify_wf"](https://ecogenomics.github.io/GTDBTk/commands/classify_wf.html) command. 
 
 ~~~
 $ gtdbtk classify_wf --genome_dir 3274_genomes/ --out_dir gtdbtk_pseudomonas -x fna --cpus 6 --scratch_dir scratch
@@ -45,7 +45,7 @@ Due to RAM issues, we needed to split the analyses into several runs. Then, we m
 
 ---
 ## FastANI
-To know the redundancy level of the genome collection we executed FastANI over the entire genome dataset. This program calculates the pairwise ANI distances among the provided genomes. It was needed to create a list of the query genomes (location of all the genomes) and another one with the reference genomes, which in this case was the same list including all the 3274 genomes, but with another file name.
+To know the redundancy level of the genome collection we executed [FastANI](https://github.com/ParBLiSS/FastANI) (v1.33) over the entire genome dataset. This program calculates the pairwise ANI distances among the provided genomes. It was needed to create a list of the query genomes (location of all the genomes) and another one with the reference genomes, which in this case was the same list including all the 3274 genomes, but with another file name.
 
 ~~~
 $ fastANI --ql query_list.txt --rl reference_list.txt -o fastani_3274 -t "Nº threads" --matrix
