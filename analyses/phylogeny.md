@@ -42,3 +42,11 @@ $ gtdbtk classify_wf --genome_dir 3274_genomes/ --out_dir gtdbtk_pseudomonas -x 
 ~~~
 
 Due to RAM issues, we needed to split the analyses into several runs. Then, we merged the output files into a single file. From that, we used the "classification" column to assign the taxonomy to each genome.
+
+---
+## FastANI
+To know the redundancy level of the genome collection we executed FastANI over the entire genome dataset. This program calculates the pairwise ANI distances among the provided genomes. It was needed to create a list of the query genomes (location of all the genomes) and another one with the reference genomes, which in this case was the same list including all the 3274 genomes, but with another file name.
+
+~~~
+$ fastANI --ql query_list.txt --rl reference_list.txt -o fastani_3274 -t "Nº threads" --matrix
+~~~
