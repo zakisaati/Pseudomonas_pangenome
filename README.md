@@ -1,5 +1,5 @@
 # _Pseudomonas_ pangenome
-This repository contains the codes used for generating the data contained in the article "Comparative genomics of the genus _Pseudomonas_ reveals host- and environment-specific evolution" (Saati-Santamaría et al., 2022. Microbiology Spectrum).
+This repository contains the codes used for generating the data contained in the article "[Comparative genomics of the genus _Pseudomonas_ reveals host- and environment-specific evolution](https://journals.asm.org/doi/10.1128/spectrum.02370-22)" (Saati-Santamaría et al., 2022. Microbiology Spectrum).
 
 <p align="center">
  
