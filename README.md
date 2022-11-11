@@ -22,7 +22,8 @@ This repository contains the codes used for generating the data contained in the
 ---
 
 ### Citation
-Saati-Santamaría, Z., Baroncelli, R., Rivas, R., García-Fraile, P. Comparative genomics of the genus _Pseudomonas_ reveals host- and environment-specific evolution. Microbiology Spectrum. Accepted.
+Saati-Santamaría, Z., Baroncelli, R., Rivas, R., García-Fraile, P. Comparative genomics of the genus _Pseudomonas_ reveals host- and environment-specific evolution. Microbiology Spectrum. 2022. DOI: https://doi.org/10.1128/spectrum.02370-22 
+
 
 ---
 
